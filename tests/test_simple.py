@@ -4,13 +4,16 @@
 
 import unittest
 
-from sample.simple import add_one
+from sample.simple import add_one, subtract_one
 
 
 class TestSimple(unittest.TestCase):
 
     def test_add_one(self):
         self.assertEqual(add_one(5), 6)
+
+    def test_subtract_one(self):
+        self.assertEqual(subtract_one(6), 5)
 
 
 if __name__ == '__main__':
