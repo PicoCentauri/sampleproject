@@ -18,6 +18,10 @@ class TestSimple(unittest.TestCase):
     def test_inverse(self):
         self.assertEqual(inverse(1), 1)
 
+    def test_inverse_0(self):
+        with self.assertRaises(ZeroDivisionError):
+            inverse(0)
+
 
 if __name__ == '__main__':
     unittest.main()
