@@ -4,7 +4,7 @@
 
 import unittest
 
-from sample.simple import add_one, subtract_one
+from sample.simple import add_one, subtract_one, inverse
 
 
 class TestSimple(unittest.TestCase):
@@ -14,6 +14,9 @@ class TestSimple(unittest.TestCase):
 
     def test_subtract_one(self):
         self.assertEqual(subtract_one(6), 5)
+
+    def test_inverse(self):
+        self.assertEqual(inverse(1), 1)
 
 
 if __name__ == '__main__':
