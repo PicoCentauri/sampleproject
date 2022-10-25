@@ -7,6 +7,9 @@ def subtract_one(number):
 
 
 def inverse(number):
+    """
+    Divides numbers
+    """
     if number == 0:
         raise ZeroDivisionError("For inverting `number` must be non zero!")
 
