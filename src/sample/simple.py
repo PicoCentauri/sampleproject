@@ -13,5 +13,4 @@ def inverse(number):
     number : int
     return : inverse of number
     """
-    a
     return 1 / number
