@@ -13,4 +13,6 @@ def inverse(number):
     number : int
     return : inverse of number
     """
+    if number == 0:
+        raise ZeroDivisionError("For inverting `number` must be non zero!")
     return 1 / number
