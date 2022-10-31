@@ -21,8 +21,9 @@ class TestSimple(unittest.TestCase):
     def test_inverse_0(self):
         with self.assertRaises(ZeroDivisionError):
             inverse(0)
-        with self.assertRaises(ZeroDivisionError):
-            inverse(1)
+
+    def test_inverse_5(self):
+        assert inverse(2) == 0.5, "division did not work"
 
 
 if __name__ == '__main__':
