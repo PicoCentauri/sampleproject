@@ -7,4 +7,4 @@ def subtract_one(number):
 
 
 def inverse(number):
-    return 1 // number
+    return 1 / number
