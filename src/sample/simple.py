@@ -7,6 +7,7 @@ def subtract_one(number):
 
 
 def inverse(number):
+<<<<<<< HEAD
     """
     Takes the inverse of the number
 
@@ -22,3 +23,8 @@ def inverse(number):
 
     """
     return 1 / number
+=======
+    if number == 0:
+        raise ZeroDivisionError("For inverting `number` must be non zero!")
+    return 1 // number
+>>>>>>> main
