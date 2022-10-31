@@ -22,8 +22,6 @@ class TestSimple(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             inverse(0)
 
-    def test_inverse_2(self):
-        assert inverse(2) == 0.5, f"Wrong inverse of 2. Should be 0.5 but is {inverse(2)}"
 
 if __name__ == '__main__':
     unittest.main()
