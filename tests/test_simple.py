@@ -22,6 +22,9 @@ class TestSimple(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             inverse(0)
 
+    def test_inverse_2(self):
+        with self.assertRaises(ZeroDivisionError):
+            inverse(2)
 
 if __name__ == '__main__':
     unittest.main()

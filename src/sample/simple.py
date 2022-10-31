@@ -7,4 +7,18 @@ def subtract_one(number):
 
 
 def inverse(number):
+    """
+    Takes the inverse of the number
+
+    Parameters
+    ----------
+
+    number : float
+        An arbitrary number.
+
+    Returns
+    ----------
+    inverse of function : float
+
+    """
     return 1 / number
